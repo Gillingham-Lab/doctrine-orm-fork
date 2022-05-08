@@ -652,11 +652,7 @@ class SqlWalker implements TreeWalker
     }
 
     /**
-     * Walks down a PathExpression AST node, thereby generating the appropriate SQL.
-     *
-     * @param AST\PathExpression $pathExpr
-     *
-     * @return string The SQL.
+     * {@inheritdoc}
      */
     public function walkPathExpression($pathExpr)
     {
